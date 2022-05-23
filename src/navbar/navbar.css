@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Anton&family=Bebas+Neue&family=Josefin+Sans:wght@100;200;300;400;600;700&family=Lora:ital,wght@1,400;1,500;1,600;1,700&family=Luckiest+Guy&family=Oswald:wght@700&family=Permanent+Marker&family=Roboto:wght@100&family=Syne+Tactile&family=Tapestry&family=Varela&family=Varela+Round&display=swap');
+.nav{
+    display:flex;
+    
+    justify-content: space-evenly;
+    width: 100vw;
+   
+    flex-wrap: wrap;
+ 
+}
+.logo{
+    color:white;
+    font-size: larger;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+    
+}
+.input{
+   border:0;
+   border-bottom: 2px solid white;
+   color: orchid;
+   font-size: larger;
+   width: 20vw;
+   margin-right: 100px;
+
+  
+   
+
+}
+.input:focus{
+    border: 0;
+   outline: none;
+   border-bottom: 2px salmon solid;
+   padding-left: 20px;
+}
